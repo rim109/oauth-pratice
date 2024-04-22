@@ -16,6 +16,15 @@ class SocialMember(
     // 고유식별자, 우연의 일치로 구글과 네이버가 동등할 경우를 대비하여 이넘클래스를 만들어 구분함.
     val nickname: String
 ) {
+    companion object {
+        fun ofKakao(id: Long, nickname: String): SocialMember {
+            return SocialMember(
+                provider = OAuth2Provider.KAKAO,
+                providerId = id.toString(),
+                nickname = nickname
+            )
+        }
+    }
 }
 
 enum class OAuth2Provider {
