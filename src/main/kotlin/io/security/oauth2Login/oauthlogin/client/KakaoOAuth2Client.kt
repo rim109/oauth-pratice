@@ -9,6 +9,8 @@ import org.springframework.util.LinkedMultiValueMap
 import org.springframework.web.client.RestClient
 import org.springframework.web.client.body
 
+//  redirect URI: 발급받은 인증 코드를 이용해서 실제로 사용할 액세스 토큰을 요청할 때 필요한 서버의 주소
+// 시큐리티를 적용하지 않는 소셜로그인 같은 경우 구현을 직접해줘야 함
 @Component
 class KakaoOAuth2Client(
     @Value("\${oauth2.kakao.client_id}") val clientId: String,

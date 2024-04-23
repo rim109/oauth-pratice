@@ -19,5 +19,13 @@ class KakaoOAuth2LoginService(
         val socialMember = socialMemberService.registerIfAbsent(userInfo)
         //4. SocialMember 를 토대로 우리쪽 액세스 토큰 발급 후 응답
         return jwtHelper.generateAccessToken(socialMember.id!!)
+
+        //이를 let 확장함수를 사용하면 비교적 더 가독성 있게 볼 수 있음
+        //fun login(authorizationCode: String): String {
+        //        return kakaoOAuth2Client.getAccessToken(authorizationCode)
+        //            .let { kakaoOAuth2Client.retrieveUserInfo(it) }
+        //            .let { socialMemberService.registerIfAbsent(it) }
+        //            .let { jwtHelper.generateAccessToken(it.id!!) }
+        //    }
     }
 }
