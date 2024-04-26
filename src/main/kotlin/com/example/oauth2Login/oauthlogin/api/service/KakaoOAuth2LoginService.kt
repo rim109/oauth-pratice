@@ -1,7 +1,7 @@
-package io.security.oauth2Login.oauthlogin.api.service
+package com.example.oauth2Login.oauthlogin.api.service
 
-import io.security.oauth2Login.oauthlogin.client.KakaoOAuth2Client
-import io.security.oauth2Login.oauthlogin.common.JwtHelper
+import com.example.oauth2Login.oauthlogin.client.KakaoOAuth2Client
+import com.example.oauth2Login.oauthlogin.common.JwtHelper
 import org.springframework.stereotype.Service
 
 @Service

@@ -1,4 +1,4 @@
-package io.security.oauth2Login.oauthlogin.common
+package com.example.oauth2Login.oauthlogin.common
 
 import org.springframework.stereotype.Component
 

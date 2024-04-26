@@ -1,11 +1,11 @@
-package io.security.oauth2Login
+package com.example.oauth2Login
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class OaurhLoginApplication
+class OauthLoginApplication
 
 fun main(args: Array<String>) {
-	runApplication<OaurhLoginApplication>(*args)
+	runApplication<OauthLoginApplication>(*args)
 }

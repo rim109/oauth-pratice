@@ -1,7 +1,7 @@
-package io.security.oauth2Login.oauthlogin.domain.repository
+package com.example.oauth2Login.oauthlogin.domain.repository
 
-import io.security.oauth2Login.oauthlogin.domain.entity.OAuth2Provider
-import io.security.oauth2Login.oauthlogin.domain.entity.SocialMember
+import com.example.oauth2Login.oauthlogin.domain.entity.OAuth2Provider
+import com.example.oauth2Login.oauthlogin.domain.entity.SocialMember
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 

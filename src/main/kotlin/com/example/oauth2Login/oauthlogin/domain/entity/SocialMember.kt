@@ -1,4 +1,4 @@
-package io.security.oauth2Login.oauthlogin.domain.entity
+package com.example.oauth2Login.oauthlogin.domain.entity
 
 import jakarta.persistence.*
 

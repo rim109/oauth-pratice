@@ -1,4 +1,4 @@
-package io.security.oauth2Login.oauthlogin.client.config
+package com.example.oauth2Login.oauthlogin.client.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

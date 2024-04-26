@@ -1,4 +1,4 @@
-package io.security.oauth2Login
+package com.example.oauth2Login
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

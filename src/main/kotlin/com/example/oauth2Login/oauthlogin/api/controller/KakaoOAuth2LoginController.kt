@@ -1,7 +1,7 @@
-package io.security.oauth2Login.oauthlogin.api.controller
+package com.example.oauth2Login.oauthlogin.api.controller
 
-import io.security.oauth2Login.oauthlogin.api.service.KakaoOAuth2LoginService
-import io.security.oauth2Login.oauthlogin.client.KakaoOAuth2Client
+import com.example.oauth2Login.oauthlogin.api.service.KakaoOAuth2LoginService
+import com.example.oauth2Login.oauthlogin.client.KakaoOAuth2Client
 import jakarta.servlet.http.HttpServletResponse
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestParam

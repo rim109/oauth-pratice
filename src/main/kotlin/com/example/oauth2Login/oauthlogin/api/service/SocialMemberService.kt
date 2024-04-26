@@ -1,9 +1,9 @@
-package io.security.oauth2Login.oauthlogin.api.service
+package com.example.oauth2Login.oauthlogin.api.service
 
 import com.example.oauth2loginsample.client.oauth2.kakao.dto.KakaoUserInfoResponse
-import io.security.oauth2Login.oauthlogin.domain.entity.OAuth2Provider
-import io.security.oauth2Login.oauthlogin.domain.entity.SocialMember
-import io.security.oauth2Login.oauthlogin.domain.repository.SocialMemberRepository
+import com.example.oauth2Login.oauthlogin.domain.entity.OAuth2Provider
+import com.example.oauth2Login.oauthlogin.domain.entity.SocialMember
+import com.example.oauth2Login.oauthlogin.domain.repository.SocialMemberRepository
 import org.springframework.stereotype.Service
 
 @Service

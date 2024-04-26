@@ -1,4 +1,4 @@
-package io.security.oauth2Login.oauthlogin.client
+package com.example.oauth2Login.oauthlogin.client
 
 import com.example.oauth2loginsample.client.oauth2.kakao.dto.KakaoTokenResponse
 import com.example.oauth2loginsample.client.oauth2.kakao.dto.KakaoUserInfoResponse
